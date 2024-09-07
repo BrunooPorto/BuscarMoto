@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Motocicleta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="imagens/Logo1.png" alt="Buscar Motocicleta"></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Conheça as motos mais populares</h1>
+          <h2>Encontre de acordo com seu gosto!</h2>
+          <form>
+            <select name="marca">
+              <option value="">Selecione a Marca</option>
+              <option value="Honda">Honda</option>
+              <option value="Yamaha">Yamaha</option>
+              <option value="Suzuki">Suzuki</option>
+              <option value="BMW">BMW</option>
+              <option value="Royal">Royal Enfield</option>
+              <option value="Dafra">Dafra</option>
+              <option value="Harley-Davidson">Harley Davidson</option>
+              <option value="Kawasaki">Kawasaki</option>
+              <option value="KTM">KTM</option>
+            </select>
+            <select name="estilo">
+              <option value="">Selecione o Estilo</option>
+              <option value="Street">Street</option>
+              <option value="Sport">Sport</option>
+              <option value="Naked">Naked</option>
+              <option value="Custom">Custom</option>
+              <option value="Trail">Trail</option>
+              <option value="Scooter">Scooter</option>
+              <option value="Adventure">Adventure</option>
+              <option value="Cruiser">Cruiser</option>
+            </select>
+            <button type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="resultados-pesquisa"></div>
+    
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Buscar Motocicleta. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
