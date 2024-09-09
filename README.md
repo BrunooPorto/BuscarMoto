@@ -12,7 +12,7 @@ CSS: A parte que deixa tudo bonitinho e organizado, como se fosse a roupa da pá
 JavaScript: A inteligência por trás da busca, filtrando as motos e mostrando os resultados.
 GitHub: O lugar onde guardamos todo o código, como um cofre super seguro.
 Como usar este código:
-Clone o repositório: Use o comando git clone https://github.com/seu-usuario/busca-moto.git para baixar o código para o seu computador.
+Clone o repositório: Use o comando git clone https://github.com/BrunooPorto/busca-moto.git para baixar o código para o seu computador.
 Abra o projeto: Abra o arquivo index.html em seu navegador favorito.
 Divirta-se: Comece a explorar e encontrar a moto dos seus sonhos!
 Para os curiosos:
